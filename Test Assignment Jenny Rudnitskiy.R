@@ -1,5 +1,5 @@
 
-#title: "Titanic Test Assignment"
+#title: "Titanic Analysis"
 #author: "Jenny_Rudnitskiy"
 #date: "21/01/2020"
 #output: html_document
@@ -19,8 +19,6 @@ library(stats)
 library(tidyverse)
 
 
-
-setwd('C:\\Users\\Jenny\\Desktop')
 titanic_train <- read.csv("train.csv")
 titanic_test<- read.csv("test.csv")
 
